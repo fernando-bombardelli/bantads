@@ -7,9 +7,10 @@ import { ClienteModule } from './cliente';
 import { GerenteModule } from './gerente';
 import { AdministradorModule } from './administrador';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,   
   ],
   imports: [
     BrowserModule,
